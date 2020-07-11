@@ -36,7 +36,14 @@ the local page is going to be served at
 localhost:4200
 ```
 
+## Add Bottstrap v3
+Add bootstrap locally with
 
+```
+npm install --save bootstrap@3
+```
+now that bootstrap is in node_modules we need to make angular aware of it into
+styles in angular.json
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
