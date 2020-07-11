@@ -1,5 +1,44 @@
 # AngularUdemyNotes
 
+This is my notebook for an Angular complete tutorial on Udemy
+
+https://www.udemy.com/course/the-complete-guide-to-angular-2/
+
+Angular is aJavaScript Framework alowing to create reactive Single-Page-Applications (SPAs).
+* an application that loads only one html file and renders views in the browser
+* instead of making calls to the server each time the page needs to be changed
+* it's much faster - gives better user experience (no waiting to load time)
+
+## Angular versioning:
+AngularJS - first angular framework
+
+2016 it was rewritten and
+Angular2 - refered to as Angular as all later versions are improvments on that framework (Angular3 was skipped)
+
+## Angualr CLI
+
+runs on node.js
+once you have node.js installed run:
+
+```
+npm install -g @angular/cli@latest
+
+ng new my-new-project
+
+cd my-new-project
+
+ng serve
+```
+
+the local page is going to be served at
+
+```
+localhost:4200
+```
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
