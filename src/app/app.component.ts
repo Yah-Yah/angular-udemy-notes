@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  // STEP_01: define property 'name' and initiate it with value
+  name = "no name yet";
 }
